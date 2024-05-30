@@ -1,0 +1,43 @@
+
+
+.footer-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+}
+.footer-content ul li{
+    list-style: none;
+}
+.footer-content ul li a{
+    text-decoration: none !important;
+    color: rgb(223, 219, 219);
+}
+
+.footer-content ul li{
+    padding-bottom: 0px;
+    border-bottom: 1px solid grey;
+    width: 100%;
+    display: block;
+    margin: 15px 0;
+}
+.footer-content ul li:hover a{
+    color: #fff;
+}
+
+.footer-content ul li:hover{
+    border-bottom: 1px solid #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+

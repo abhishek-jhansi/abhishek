@@ -1,0 +1,59 @@
+.curved-box{
+    padding: 25px;
+   
+    background: rgb(212,212,230);
+background: linear-gradient(90deg, rgba(212,212,230,1) 0%, rgba(230,230,236,1) 35%, rgba(242,242,252,1) 100%);
+}
+.left-curve{
+    border-top-left-radius: 130px;
+    border-bottom-left-radius: 130px;
+    background-image: linear-gradient(to right, #9e9ec4fa, #ababcccc, #b9b9d5ad, #c6c6dd54, #d4d4e600);
+
+}
+.right-curve{
+    border-top-right-radius: 130px;
+    border-bottom-right-radius: 130px;
+    background-image: linear-gradient(to right, #9e9ec400, #ababcc69, #b9b9d5d6, #c6c6dd, #d4d4e6);
+
+}
+
+
+.support-img{
+    width: 250;
+    height: 250;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    transition: all 0.5s ease;
+}
+.curved-box:hover .support-img{
+    transform: scale(1.1);
+}
+
+
+.service-title{
+    color: black;
+    font-size: 30px;
+    line-height: 1.5;
+    font-weight: 600;
+}
+.service-title span{
+    background-color: red;
+    padding: 0 10px;
+    color: #fff;
+}
+.text-justify{
+    text-align: justify !important;
+}
+@media screen and (max-width:664px){
+    .left-curve{
+        border-top-left-radius: 90px;
+        border-bottom-left-radius: 90px;
+    }
+    .right-curve{
+        border-top-right-radius: 90px;
+        border-bottom-left-radius: 90px;
+    }
+    .text-center-md{
+        text-align: center !important;
+    }
+}

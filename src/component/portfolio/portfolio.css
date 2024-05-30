@@ -1,0 +1,41 @@
+.card{
+    width: 18rem;
+}
+.btn1{
+    width: 100% !important;
+    background-color: #dc3545;
+    border-color: #dc3545;
+    font-weight: 500;
+}
+
+.modal-dialog{
+    max-width: 900px !important;
+}
+.section-title{
+    margin: 30px 0;
+}
+.last-project{
+    margin: 20px 0;
+}
+.m-auto{
+    margin: auto;
+}
+.card-img-top{
+    cursor: pointer;
+}
+@media screen and (max-width:664px){
+    .section-title{
+        margin: 15px 0;
+    }
+    .last-project{
+        margin: 10px 0;
+    }
+    .model-dialog{
+        max-width: 350px !important;
+        
+    }
+    .model{
+        top: 18% !important;
+    }
+}
+
